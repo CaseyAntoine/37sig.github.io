@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of CSS reset. */
+
+header.nav{
+	text-align:right;
+	padding:10px;
+	margin: 17px 0 20px 0;
+}
+
+header.nav ul li.date{
+	float:left;
+	margin-left:40px;
+	padding-top: 4px;
+	color: #999;
+}
+
+header.nav ul{
+	margin-right:50px;
+}
+
+header.nav ul li{
+	display:inline-block;
+	padding:10px;
+	font-size:12px;
+	font-family:Verdana, sans-serif;
+	line-height:1.5em;
+}
+
+header.nav ul li a{
+	text-decoration:none;
+	font-family:Verdana, sans-serif;
+	color:#369;
+}
+
+ #sign_in{
+	color:#18afe0;
+}
+
+	.headline img{
+		display:block;
+		margin: -10px 0 20px 390px;
+
+	}
+
+.headline{ 
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+	
+}
+
+	.headline h1{
+	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+	clear: both;
+	font-weight:500;
+	font-style:normal;
+	line-height: 1.0em;
+	font-size:58px;
+	margin-bottom:20px;
+	letter-spacing: -2px;
+}
+
+	.headline h5{
+		font-size:20px;
+		font-weight: 500;
+		margin: 10px 0;
+	}
+
+ .products{
+ 	border: 1px solid #e8e8e8;
+ 	border-radius:10px;
+	width:182px;
+	height:249px;
+	float:left;
+	text-align:center;
+	line-height: 1.5em;
+	padding:20px 10px 10px;
+	box-shadow: 0 0 5px #efefef;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+	display:inline-block;
+	margin: 15px 20px 5px;
+
+}
+
+a{
+	text-decoration:none;
+}
+
+.products h3 span{
+	text-decoration: underline;
+	font-size:21px;
+	font-family: sans-serif, Verdana;
+	color:#369;
+	font-weight: bold;
+}
+
+.products sup{
+	font-size:11px;
+	font-weight:normal;
+	color:#999;
+	vertical-align: super;
+}
+
+.products h4{
+	margin: 5px 0 10px;
+	font-weight:bold;
+	color: #cc0000;
+	font-size:14px;
+	font-family:sans-serif;
+
+}
+
+.products p{
+	color:#222;
+	line-height:1.2em;
+	font-size:14px;
+	margin-top:5px;
+	font-family:Verdana, sans-serif;
+}
+
+	hr{
+		clear:both;
+		border: 0;
+		background: white url(img-hr.png) no-repeat scroll 50% 50%;
+		color:transparent;
+		height: 12px;
+		margin-top:20px;
+
+	}
+
