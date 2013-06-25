@@ -79,7 +79,7 @@ header.nav ul li a{
 	color:#369;
 }
 
- #sign_in a{
+ #sign_in {
 	color:#18afe0;
 }
 
@@ -166,7 +166,6 @@ a{
 }
 
 	hr{
-		margin-top: 50px;
 		clear:both;
 		border: 0;
 		background: white url(img-hr.png) no-repeat scroll 50% 50%;
