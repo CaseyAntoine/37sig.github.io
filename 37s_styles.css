@@ -79,7 +79,7 @@ header.nav ul li a{
 	color:#369;
 }
 
- #sign_in a{
+header.nav ul li#sign_in a{
 	color:#18afe0;
 }
 
@@ -113,6 +113,12 @@ header.nav ul li a{
 		margin: 10px 0;
 	}
 
+.Home{
+	width:100%;
+	margin: 0 auto;
+
+	}
+
  .products{
  	border: 1px solid #e8e8e8;
  	border-radius:10px;
@@ -124,7 +130,6 @@ header.nav ul li a{
 	padding:20px 10px 10px;
 	box-shadow: 0 0 5px #efefef;
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
-	display:inline-block;
 	margin: 15px 20px 5px;
 
 }
@@ -133,7 +138,7 @@ a{
 	text-decoration:none;
 }
 
-.products h3 span{
+	.products h3 span{
 	text-decoration: underline;
 	font-size:21px;
 	font-family: sans-serif, Verdana;
@@ -141,14 +146,14 @@ a{
 	font-weight: bold;
 }
 
-.products sup{
+	.products sup{
 	font-size:11px;
 	font-weight:normal;
 	color:#999;
 	vertical-align: super;
 }
 
-.products h4{
+	.products h4{
 	margin: 5px 0 10px;
 	font-weight:bold;
 	color: #cc0000;
@@ -157,7 +162,7 @@ a{
 
 }
 
-.products p{
+	.products p{
 	color:#222;
 	line-height:1.2em;
 	font-size:14px;
