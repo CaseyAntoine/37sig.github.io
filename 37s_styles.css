@@ -83,6 +83,14 @@ header.nav ul li#sign_in a{
 	color:#18afe0;
 }
 
+ a:hover{
+ 	color:#18afe0
+ }
+
+ #sign_in a:hover{
+ 	color:#369;
+ }
+
 	.headline img{
 		display:block;
 		margin: -10px 0 20px 390px;
@@ -90,7 +98,7 @@ header.nav ul li#sign_in a{
 	}
 
 .headline{ 
-	width:960px;
+	width:820px;
 	margin:0 auto;
 	text-align:center;
 	
@@ -104,7 +112,7 @@ header.nav ul li#sign_in a{
 	line-height: 1.0em;
 	font-size:58px;
 	margin-bottom:20px;
-	letter-spacing: -2px;
+	letter-spacing: -1px;
 }
 
 	.headline h5{
