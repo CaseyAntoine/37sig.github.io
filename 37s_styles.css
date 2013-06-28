@@ -48,6 +48,7 @@ table {
 }
 /* End of CSS reset. */
 
+/* Navigation elements*/
 header.nav{
 	text-align:right;
 	padding:10px;
@@ -83,14 +84,14 @@ header.nav ul li#sign_in a{
 	color:#18afe0;
 }
 
- a:hover{
+header.nav ul li a:hover{
  	color:#18afe0
  }
 
- #sign_in a:hover{
+header.nav ul li #sign_in a:hover{
  	color:#369;
  }
-
+/* Main elements*/
 	.headline img{
 		display:block;
 		margin: -10px 0 20px 390px;
@@ -120,7 +121,7 @@ header.nav ul li#sign_in a{
 		font-weight: 500;
 		margin: 10px 0;
 	}
-
+/* Product box elements*/
 .Home{
 	width: 1280px;
 	height: 300px;
@@ -183,13 +184,14 @@ a{
 	margin-top:5px;
 	font-family:Verdana, sans-serif;
 }
-
+/* First astericks*/
 	hr{
 		clear:both;
 		border: 0;
 		background: white url(img-hr.png) no-repeat scroll 50% 50%;
 		color:transparent;
 		height: 12px;
+		width:1280px;
 		margin-top:20px;
 
 	}
