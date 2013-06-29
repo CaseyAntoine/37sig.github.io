@@ -80,32 +80,33 @@ header.nav ul li a{
 	color:#369;
 }
 
-header.nav ul li#sign_in a{
+header.nav ul li.sign_in a{
 	color:#18afe0;
 }
 
-header.nav ul li a:hover{
+.nav li a:hover{
  	color:#18afe0
  }
 
-header.nav ul li #sign_in a:hover{
+.nav .sign_in a:hover{
  	color:#369;
- }
+}
 /* Main elements*/
 	.headline img{
 		display:block;
-		margin: -10px 0 20px 390px;
+		width:164px;
+		margin: 0 auto;
 
 	}
 
 .headline{ 
-	width:820px;
+	width:842px;
 	margin:0 auto;
 	text-align:center;
 	
 }
 
-	.headline h1{
+.headline h1{
 	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
 	clear: both;
 	font-weight:500;
@@ -116,27 +117,30 @@ header.nav ul li #sign_in a:hover{
 	letter-spacing: -1px;
 }
 
-	.headline h5{
-		font-size:20px;
-		font-weight: 500;
-		margin: 10px 0;
-	}
+.headline h5{
+	font-size:20px;
+	font-weight: 500;
+	margin: 10px 0;
+}
 /* Product box elements*/
-.Home{
-	width: 1280px;
-	height: 300px;
+.home{
+	width: 732px;
 	margin: 0 auto;
 	margin-bottom:15px;
 
-	}
+}
+.clear{
+	clear:both;
+}
 
-	#bc{
-		margin-left:320px;
-	}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
 
- .products{
- 	border: 1px solid #e8e8e8;
- 	border-radius:10px;
+.products{
+	border: 1px solid #e8e8e8;
+	border-radius:10px;
 	width:182px;
 	height:249px;
 	float:left;
@@ -146,14 +150,21 @@ header.nav ul li #sign_in a:hover{
 	box-shadow: 0 0 5px #efefef;
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
 	margin: 15px 20px 5px;
+}
 
+#bc{
+	margin-left: 0;
+}
+
+#cf{
+	margin-right:0;
 }
 
 a{
 	text-decoration:none;
 }
 
-	.products h3 span{
+.products h3 span{
 	text-decoration: underline;
 	font-size:21px;
 	font-family: sans-serif, Verdana;
@@ -161,14 +172,14 @@ a{
 	font-weight: bold;
 }
 
-	.products sup{
+.products sup{
 	font-size:11px;
 	font-weight:normal;
 	color:#999;
 	vertical-align: super;
 }
 
-	.products h4{
+.products h4{
 	margin: 5px 0 10px;
 	font-weight:bold;
 	color: #cc0000;
@@ -177,7 +188,7 @@ a{
 
 }
 
-	.products p{
+.products p{
 	color:#222;
 	line-height:1.2em;
 	font-size:14px;
@@ -185,14 +196,14 @@ a{
 	font-family:Verdana, sans-serif;
 }
 /* First astericks*/
-	hr{
-		clear:both;
-		border: 0;
-		background: white url(img-hr.png) no-repeat scroll 50% 50%;
-		color:transparent;
-		height: 12px;
-		width:1280px;
-		margin-top:20px;
+hr{
+	clear:both;
+	border: 0;
+	background: white url(img-hr.png) no-repeat scroll 50% 50%;
+	color:transparent;
+	height: 12px;
+	width:72px;
+	margin:20px auto;
 
-	}
+}
 
