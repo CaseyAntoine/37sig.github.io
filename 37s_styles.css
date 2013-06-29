@@ -124,7 +124,7 @@ header.nav ul li.sign_in a{
 }
 /* Product box elements*/
 .home{
-	width: 732px;
+	width: 635px;
 	margin: 0 auto;
 	margin-bottom:15px;
 
@@ -141,8 +141,7 @@ header.nav ul li.sign_in a{
 .products{
 	border: 1px solid #e8e8e8;
 	border-radius:10px;
-	width:182px;
-	height:249px;
+	width:162px;
 	float:left;
 	text-align:center;
 	line-height: 1.5em;
@@ -150,6 +149,10 @@ header.nav ul li.sign_in a{
 	box-shadow: 0 0 5px #efefef;
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
 	margin: 15px 20px 5px;
+}
+
+.products p{
+	margin-bottom:10px;
 }
 
 #bc{
