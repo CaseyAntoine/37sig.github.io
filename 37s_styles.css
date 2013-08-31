@@ -122,6 +122,60 @@ header.nav ul li.sign_in a{
 	font-weight: 500;
 	margin: 10px 0;
 }
+
+.header{
+	display:none;
+	position:absolute;
+	text-decoration:none;
+	background-color:#FFF;
+	height:180px;
+	width:845px;
+	margin: -165px 0 0 -98px;
+}
+
+.header span{
+	text-decoration:underline;
+	color:#336699;
+}
+
+.header h1{
+	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+	clear: both;
+	font-weight:500;
+	font-style:normal;
+	color: #222222;
+	line-height: 1.0em;
+	font-size:44px;
+	margin-bottom:20px;
+	letter-spacing: -1px;
+}
+
+.header p{
+	font-size:20px;
+	color:#222222;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+.highlighted .header{
+	display:block;
+}
+
+.arrow{
+	float:left;
+}
+
+#base .arrow{
+	margin-left:230px;
+}
+
+#high .arrow{
+	margin-left:455px;
+}
+
+#camp .arrow{
+	margin-left:520px;
+}
 /* Product box elements*/
 .home{
 	width: 635px;
